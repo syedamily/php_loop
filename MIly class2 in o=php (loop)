@@ -1,0 +1,154 @@
+//if loop
+<?php
+$name ="Mily";
+$password ="aswdef";
+if ( $name == "Mily" ) {
+    echo( "Successful login");
+    # code...
+} else {
+    echo( "Wrong Name");
+    
+    # code...
+}
+echo"<br>";
+ if ($password == "aswdef") {
+     echo("Right Password");
+     # code...
+ } else {
+     echo( "Wrong Password");
+     # code...
+ }
+ 
+
+
+
+?>
+//whileloop
+<?php
+$year = "1992";
+while ($year <= 2026) {
+    echo($year . "<br>");
+    $year++;
+    # code...
+}
+
+
+?>
+
+//forloop
+<?php
+$name = ["Nirob","Fatema", "Nipon"];
+for ($i=1; $i <10 ; $i++) { 
+    echo("Ilove php <br>");
+    # code...
+}
+//Count will be change by 2
+for ($i=1; $i <10 ; $i+=2) { 
+    echo ("$i <br>");
+
+    # code...
+}
+for ($i=0; $i <count($name) ; $i++) { 
+    echo($name[$i]."<br>");
+    # code...
+}
+?>
+//do while loop
+<?php
+$count =1;
+do {
+    echo(" Tarek bhaiya Class recording cai .<br>");
+    $count ++;
+    # code...
+} while ($count <= 1000);
+
+
+?>
+//else if loop
+<?php
+$student_name = "Farik";
+if ($student_name == "Manju") {
+    echo ("Manju");
+}
+    else if ($student_name == "Niha") {
+        echo( "Niha");
+
+        # code...
+    }
+    else if ($student_name == "Nijum") {
+        echo( "Nijum");
+
+        # code...
+    }
+    else if ($student_name == "Nihan") {
+        echo( "Nihan");
+
+        # code...
+    }
+    else if ($student_name == "Tanisa") {
+        echo( "Tanisa");
+
+        # code...
+    }
+    else if ($student_name == "Tarifa") {
+        echo( "Tarifa");
+
+        # code...
+    }
+    else if ($student_name == "Mimfa"){
+        echo( "Mimfa");
+
+        # code...
+    }
+    else if ($student_name == "Mehraj") {
+        echo( "Mehraj");
+
+        # code...
+    }
+    else if ($student_name == "Juba") {
+        echo( "Juba");
+
+        # code...
+    }
+    else if ($student_name == "Abnan") {
+        echo( "Abnan");
+
+        # code...
+    }
+    else if ($student_name == "Iman") {
+        echo( "Iman");
+
+        
+        # code...
+    }
+    else if ($student_name == "Jannat") {
+        echo( "Jannat");
+
+        # code...
+    }
+    else if ($student_name == "Farik") {
+        echo( "Farik");
+
+        # code...
+    }
+    else if ($student_name == "Surubi") {
+        echo( "Surubi");
+
+        # code...
+    }
+    else if ($student_name == "Koly") {
+        echo( "Koly");
+
+        # code...
+    }
+    # code...
+ else {
+     echo("Not found");
+    # code...
+}
+
+
+
+
+
+?>
